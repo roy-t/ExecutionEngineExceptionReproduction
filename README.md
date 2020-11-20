@@ -1,0 +1,1 @@
+# Reproduction, execution exception in .NET 5.0
