@@ -10,7 +10,7 @@ namespace FooCrash
             Console.WriteLine("Hello World!");
 
             var assembly = Assembly.LoadFrom("library.dll");
-            var types = assembly.GetTypes();
+            assembly.GetTypes();
 
             Console.ReadLine();
         }
